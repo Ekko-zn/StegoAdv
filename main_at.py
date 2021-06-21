@@ -7,7 +7,7 @@ from model import HPF, HILLSTC, HILLCOST, HPF_SRM
 from PIL import Image
 from cfg import *
 from hpfloss import HPFLOSS
-
+os.system('mkdir data_at')
 start_num = 0
 class ImageNetTest(Dataset):
     def __init__(self, path,names):
