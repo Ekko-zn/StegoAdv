@@ -24,7 +24,7 @@ class ImageNetTest(Dataset):
     def __len__(self):
         return 1000
 
-file=open('../names.txt', 'r')
+file=open('./names.txt', 'r')
 list_read = file.readlines()
 
 normal_data = ImageNetTest('./ILSVRC2012_img_val_labeled/',list_read)
